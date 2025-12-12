@@ -4,46 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minesweeper - Classic Puzzle Game</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        nav { margin-bottom: 20px; }
-        nav a { margin-right: 15px; text-decoration: none; color: blue; }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Minesweeper</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="support.html">Support</a>
-            <a href="privacy.html">Privacy Policy</a>
+            <div class="logo">Minesweeper</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
         </nav>
     </header>
+    <section class="hero">
+        <h1>Welcome to Minesweeper</h1>
+        <p>The timeless puzzle game that challenges your logic and strategy.</p>
+    </section>
     <main>
-        <h2>About Minesweeper</h2>
-        <p>Minesweeper is a classic single-player puzzle video game. The objective of the game is to clear a rectangular board containing hidden "mines" or bombs without detonating any of them, with help from clues about the number of neighboring mines in each field.</p>
+        <section class="section">
+            <h2>About Minesweeper</h2>
+            <p>Minesweeper is a classic single-player puzzle video game. The objective of the game is to clear a rectangular board containing hidden "mines" or bombs without detonating any of them, with help from clues about the number of neighboring mines in each field.</p>
+        </section>
         
-        <h3>How to Play</h3>
-        <ul>
-            <li>The game board is divided into a grid of squares.</li>
-            <li>Some squares contain mines, others are empty.</li>
-            <li>The player clicks on squares to reveal them.</li>
-            <li>If a square contains a mine, the game ends.</li>
-            <li>If a square is empty, it shows a number indicating how many mines are adjacent to it.</li>
-            <li>Use this information to deduce where the mines are and mark them with flags.</li>
-            <li>The goal is to reveal all non-mine squares without clicking on a mine.</li>
-        </ul>
+        <section class="section">
+            <h2>How to Play</h2>
+            <ul>
+                <li>The game board is divided into a grid of squares.</li>
+                <li>Some squares contain mines, others are empty.</li>
+                <li>The player clicks on squares to reveal them.</li>
+                <li>If a square contains a mine, the game ends.</li>
+                <li>If a square is empty, it shows a number indicating how many mines are adjacent to it.</li>
+                <li>Use this information to deduce where the mines are and mark them with flags.</li>
+                <li>The goal is to reveal all non-mine squares without clicking on a mine.</li>
+            </ul>
+        </section>
         
-        <h3>History</h3>
-        <p>Minesweeper was first introduced in 1992 as part of the Microsoft Entertainment Pack for Windows 3.1. It became a staple of Windows operating systems and has since been ported to various platforms.</p>
+        <section class="section">
+            <h2>History</h2>
+            <p>Minesweeper was first introduced in 1992 as part of the Microsoft Entertainment Pack for Windows 3.1. It became a staple of Windows operating systems and has since been ported to various platforms.</p>
+        </section>
         
-        <h3>Features</h3>
-        <ul>
-            <li>Classic gameplay</li>
-            <li>Multiple difficulty levels</li>
-            <li>Timer and mine counter</li>
-            <li>High scores</li>
-        </ul>
+        <section class="section">
+            <h2>Features</h2>
+            <ul>
+                <li>Classic gameplay</li>
+                <li>Multiple difficulty levels</li>
+                <li>Timer and mine counter</li>
+                <li>High scores</li>
+            </ul>
+        </section>
     </main>
     <footer>
         <p>&copy; 2025 Minesweeper. All rights reserved.</p>
